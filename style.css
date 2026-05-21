@@ -67,3 +67,47 @@
         font-size: 14px;
         color: #999;
     }
+
+.custom-line {
+  border: none;              /* remove default style */
+  border-top: 1px solid black; /* add custom line */
+  margin: 20px 0;            /* spacing above and below */
+}
+
+.order-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF; /* blue background */
+  color: white;              /* white text */
+  text-decoration: none;     /* remove underline */
+  border-radius: 5px;        /* rounded corners */
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+  background-color: #0056b3; /* darker blue on hover */
+}
+
+.image-row {
+  display: flex;              /* arrange images side by side */
+  justify-content: center;    /* center them horizontally */
+  gap: 20px;                  /* spacing between images */
+  margin: 20px 0;             /* spacing between rows */
+}
+
+.image-row img {
+  width: 200px;               /* fixed width */
+  height: auto;               /* keep aspect ratio */
+  border-radius: 8px;         /* rounded corners */
+  transition: transform 0.3s ease;
+}
+
+.image-row img:hover {
+  transform: scale(1.05);     /* zoom effect on hover */
+}
+
+.custom-background {
+  background-color: rgb(221, 186, 238); /* soft purple tone */
+}
